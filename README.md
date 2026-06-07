@@ -9,6 +9,10 @@ iTerm2 · Oh My Zsh · Powerlevel10k · 语法高亮 · 自动建议 · fastfetc
 
 [一键安装](#-一键安装--one-line-install) · [安装内容](#-安装内容--whats-installed) · [设计原则](#-设计原则--design-principles) · [卸载](#-卸载--uninstall)
 
+<br/>
+
+<img src="assets/demo.png" alt="mac-terminal-glow demo" width="720" />
+
 </div>
 
 ---

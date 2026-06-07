@@ -180,8 +180,3 @@ echo "  1) 打开 iTerm2（已设默认 profile 与字体）/ Open iTerm2 (defau
 echo "  2) 新开标签页或运行 exec zsh 查看效果 / Open a new tab or run: exec zsh"
 echo "  3) 想重调提示符 / Re-tune the prompt:  p10k configure"
 [[ "$GUI" == "0" ]] && echo "  (--no-gui: 未装 iTerm/字体，请手动把终端字体设为 Nerd Font / set a Nerd Font manually)"
-echo ""
-printf "\033[1;35m──────────────────────────────────────────────────\033[0m\n"
-printf "\033[1;35m 🐱 觉得好用？关注【开发者猫叔】，学习更多 AI 知识与开发干货\033[0m\n"
-printf "\033[1;35m    Like it? Follow \"开发者猫叔 (Developer Cat Uncle)\" for more AI & dev tips.\033[0m\n"
-printf "\033[1;35m──────────────────────────────────────────────────\033[0m\n"
