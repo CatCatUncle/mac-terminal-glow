@@ -12,10 +12,11 @@ if [[ -z "$HOMEBREW_PREFIX" ]]; then
 fi
 _glow_share="$HOMEBREW_PREFIX/share"
 
-# —— 启动画面：fastfetch（仅交互式，且不在 Claude Code / Emacs 内）——
-if [[ -o interactive && -z "$CLAUDECODE" && -z "$INSIDE_EMACS" ]] && command -v fastfetch >/dev/null; then
-  fastfetch
-fi
+# —— 启动画面：fastfetch（默认关闭，保持开终端只有干净提示符）——
+#    想开机自动显示系统信息？取消下面三行注释即可（手动随时可运行 fastfetch）：
+# if [[ -o interactive && -z "$CLAUDECODE" && -z "$INSIDE_EMACS" ]] && command -v fastfetch >/dev/null; then
+#   fastfetch
+# fi
 
 # —— Powerlevel10k instant prompt（必须尽量靠前）——
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then

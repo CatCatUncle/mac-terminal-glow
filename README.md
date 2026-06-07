@@ -53,7 +53,7 @@ After install, **open a new iTerm tab** or run `exec zsh` to see it.
 | **zsh-syntax-highlighting** | 命令对错实时变色 / Commands turn green/red as you type |
 | **zsh-autosuggestions** | 灰字历史建议，→ 接受 / Greyed history suggestions, press → to accept |
 | **history-substring-search** | ↑↓ 按已输入前缀翻历史 / ↑↓ search history by typed prefix |
-| **fastfetch** | 开终端时的系统信息启动画面 / System-info splash on launch |
+| **fastfetch** | 系统信息启动画面（**默认关闭**，保持开终端只有干净提示符；在 `glow.zsh` 里解开注释即可启用）/ System-info splash (**off by default** for a clean prompt; uncomment in `glow.zsh` to enable) |
 | **git-delta** | 彩色高亮、带行号的 `git diff` / Beautiful syntax-highlighted diffs |
 | **tmux** | 多窗格 + Snazzy 状态栏配置 / Multiplexer with a Snazzy status bar |
 | **eza · bat · fzf · zoxide · btop · lazygit · tldr** | 现代 CLI 全家桶 / A modern CLI toolbelt |
